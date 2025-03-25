@@ -1182,28 +1182,3 @@ body.lb-disable-scrolling {
 .owl-carousel .owl-nav {
   display: none;
 }
-
-/* .dafetite {
-  height: 40px;
-  width: 90px;
-  transition: all 0.3s ease-in-out;
-}
-
-.dafetite:hover, .dafetite:active {
-  width: 110px;
-  height: 41px;
-}
-
-.socials {
-  display: flex;
-  font-size: x-large;
-  justify-content: flex-end;
-}
-.social {
-  padding: 10px;
-  border-radius: 10%;
-  transition: background-color 0.3s;
-}
-.social:hover {
-  background-color: #090a0c6e;
-} */
