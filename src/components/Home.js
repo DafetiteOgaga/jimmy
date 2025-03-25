@@ -1,26 +1,30 @@
 import { useEffect, useState } from "react";
-import home from "../img/home-icon.png"
-import about from "../img/about-icon.png"
-import projects from "../img/projects-icon.png"
-import contact from "../img/contact-icon.png"
+// import home from "../img/home-icon.png"
+// import about from "../img/about-icon.png"
+// import projects from "../img/projects-icon.png"
+// import contact from "../img/contact-icon.png"
 // import profile from "../img/jimmy1.jpeg"
 import profile from "../img/dafetite.jpeg"
-import aboutImage from "../img/about-image.png"
+// import aboutImage from "../img/about-image.png"
 import projectItem1 from "../img/project-item-01.jpg"
 import projectItem2 from "../img/project-item-02.jpg"
 import projectItem3 from "../img/project-item-03.jpg"
-import projectItem4 from "../img/project-item-04.jpg"
-import projectItem5 from "../img/project-item-05.jpg"
-import projectItem6 from "../img/project-item-06.jpg"
-import projectItem7 from "../img/project-item-07.jpg"
+// import projectItem4 from "../img/project-item-04.jpg"
+// import projectItem5 from "../img/project-item-05.jpg"
+// import projectItem6 from "../img/project-item-06.jpg"
+// import projectItem7 from "../img/project-item-07.jpg"
 import { DateHook } from "../hooks/DateHook";
 import dafetite from "../img/dafelogoWhiteTransparent.png"
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin,
+	FaYoutube, FaHome, FaProjectDiagram, FaInfoCircle } from "react-icons/fa";
+import { useIsMobile } from "../hooks/IsMobile";
+import * as Ficons from "react-icons/fa";
 // import $ from 'jquery';
 // import 'owl.carousel/dist/assets/owl.carousel.css';
 // import 'owl.carousel/dist/owl.carousel';
 
 function Home () {
+	console.log(Ficons)
 	const [showNavMenu, setShowNavMenu] = useState(false);
 	const isMobile = useIsMobile();
 	const year = DateHook().todayYear;
@@ -88,16 +92,27 @@ function Home () {
 
 				{<ul className={`nav__list ${showNavMenu ? "nav__list--active" : ""}`}>
 					<li className="nav__item">
-						<a onClick={navMenuHandler} href="#1" className="nav__link c-blue"><img src={home} alt=""/></a>
+						<a onClick={navMenuHandler} href="#1" className="nav__link">
+							{/* <img src={home} alt=""/> */}
+							<FaHome size={50} color="#fff" />
+						</a>
+					</li>
+					{/* <li className="nav__item">
+						<a onClick={navMenuHandler} href="#2" className="nav__link c-yellow scrolly">
+							<img src={about} alt=""/>
+						</a>
+					</li> */}
+					<li className="nav__item">
+						<a onClick={navMenuHandler} href="#3" className="nav__link">
+							{/* <img src={projects} alt=""/> */}
+							<FaProjectDiagram size={50} color="#fff" />
+						</a>
 					</li>
 					<li className="nav__item">
-						<a onClick={navMenuHandler} href="#2" className="nav__link c-yellow scrolly"><img src={about} alt=""/></a>
-					</li>
-					<li className="nav__item">
-						<a onClick={navMenuHandler} href="#3" className="nav__link c-red"><img src={projects} alt=""/></a>
-					</li>
-					<li className="nav__item">
-						<a onClick={navMenuHandler} href="#4" className="nav__link c-green"><img src={contact} alt=""/></a>
+						<a onClick={navMenuHandler} href="#4" className="nav__link">
+							{/* <img src={contact} alt=""/> */}
+							<FaInfoCircle size={50} color="#fff" />
+						</a>
 					</li>
 				</ul>}
 			</nav>
@@ -404,30 +419,3 @@ function Home () {
 	)
 }
 export { Home }
-
-
-const useIsMobile = () => {
-	const [isMobile, setIsMobile] = useState(window.matchMedia("(max-width: 768px)").matches);
-
-	useEffect(() => {
-		const mediaQuery = window.matchMedia("(max-width: 768px)");
-		const handleResize = () => setIsMobile(mediaQuery.matches);
-
-		mediaQuery.addEventListener("change", handleResize);
-		return () => mediaQuery.removeEventListener("change", handleResize);
-	}, []);
-
-	return isMobile;
-};
-
-// const MyComponent = () => {
-//   const isMobile = useIsMobile();
-
-//   return (
-//     <div>
-//       {isMobile ? <p>📱 Mobile View</p> : <p>🖥️ Desktop View</p>}
-//     </div>
-//   );
-// };
-
-// export default MyComponent;
