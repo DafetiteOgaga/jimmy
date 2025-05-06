@@ -1191,13 +1191,13 @@ body.lb-disable-scrolling {
   }
   .nav__link {
     height: 40%;
-    width: 60px;
+    width: 46px;
     padding: 15px 5px;
   }
 
   .burger {
-    height: 10vh;
-    padding: 0 10px;
+    /* height: 10vh; */
+    padding: 0 3px;
     border-bottom-right-radius: 0;
   }
   .burger__patty {
@@ -1218,6 +1218,7 @@ body.lb-disable-scrolling {
     /* display: flex;  */
     font-size: 22px;
     justify-content: center;
+    /* padding-left: 30px; */
   }
 
   .home-content,

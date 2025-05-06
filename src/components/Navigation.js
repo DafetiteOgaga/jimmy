@@ -24,7 +24,10 @@ function Navigation () {
 					toggleMenuClickHandler();
 				}}
 				className="burger"
-				style={{background: isMenuClicked ? 'transparent' : null}}
+				style={{
+					background: isMenuClicked ? 'transparent' : null,
+					// padding: 7,
+				}}
 				>
 					<div className="burger__patty"></div>
 				</div>
