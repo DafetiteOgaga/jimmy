@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/jimmy/static/css/main.0e644409.css",
+    "main.css": "/jimmy/static/css/main.72815919.css",
     "main.js": "/jimmy/static/js/main.7c10f273.js",
     "static/js/488.ac60bfcf.chunk.js": "/jimmy/static/js/488.ac60bfcf.chunk.js",
-    "static/media/jimmy_mobile_bg.png": "/jimmy/static/media/jimmy_mobile_bg.77c1a38d3d3c47e293b1.png",
+    "static/media/jimmy_mobile_bg.png": "/jimmy/static/media/jimmy_mobile_bg.aa1aabd11e4fca24805d.png",
     "static/media/jimmy_pc_bg.png": "/jimmy/static/media/jimmy_pc_bg.be4c985a321e1f17f624.png",
     "static/media/profile_Picture.jpg": "/jimmy/static/media/profile_Picture.9c5318036306a83e6fd0.jpg",
     "static/media/glyphicons-halflings-regular.svg": "/jimmy/static/media/glyphicons-halflings-regular.a2d98995549db87fb48d.svg",
@@ -15,12 +15,12 @@
     "static/media/glyphicons-halflings-regular.eot": "/jimmy/static/media/glyphicons-halflings-regular.2810d2a49be3af435f61.eot",
     "static/media/dafelogoWhiteTransparent.png": "/jimmy/static/media/dafelogoWhiteTransparent.9e22063262c522af2111.png",
     "index.html": "/jimmy/index.html",
-    "main.0e644409.css.map": "/jimmy/static/css/main.0e644409.css.map",
+    "main.72815919.css.map": "/jimmy/static/css/main.72815919.css.map",
     "main.7c10f273.js.map": "/jimmy/static/js/main.7c10f273.js.map",
     "488.ac60bfcf.chunk.js.map": "/jimmy/static/js/488.ac60bfcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e644409.css",
+    "static/css/main.72815919.css",
     "static/js/main.7c10f273.js"
   ]
 }
