@@ -1197,7 +1197,7 @@ body.lb-disable-scrolling {
 
   .burger {
     height: 10vh;
-    padding: 0 0px;
+    padding: 0 10px;
     border-bottom-right-radius: 0;
   }
   .burger__patty {
