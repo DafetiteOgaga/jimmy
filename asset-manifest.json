@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jimmy/static/css/main.17f60989.css",
+    "main.css": "/jimmy/static/css/main.c8739c74.css",
     "main.js": "/jimmy/static/js/main.8c718c09.js",
     "static/js/488.ac60bfcf.chunk.js": "/jimmy/static/js/488.ac60bfcf.chunk.js",
     "static/media/jimmy_mobile_bg.png": "/jimmy/static/media/jimmy_mobile_bg.2607a54957ef35dad81e.png",
@@ -15,12 +15,12 @@
     "static/media/glyphicons-halflings-regular.eot": "/jimmy/static/media/glyphicons-halflings-regular.2810d2a49be3af435f61.eot",
     "static/media/dafelogoWhiteTransparent.png": "/jimmy/static/media/dafelogoWhiteTransparent.9e22063262c522af2111.png",
     "index.html": "/jimmy/index.html",
-    "main.17f60989.css.map": "/jimmy/static/css/main.17f60989.css.map",
+    "main.c8739c74.css.map": "/jimmy/static/css/main.c8739c74.css.map",
     "main.8c718c09.js.map": "/jimmy/static/js/main.8c718c09.js.map",
     "488.ac60bfcf.chunk.js.map": "/jimmy/static/js/488.ac60bfcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17f60989.css",
+    "static/css/main.c8739c74.css",
     "static/js/main.8c718c09.js"
   ]
 }
