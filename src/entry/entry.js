@@ -4,7 +4,7 @@ import projectItem3 from "../img/project-item-03.jpg"
 
 function Entry () {
 	const name = `
-	Fijimi Ayodele
+	Jimi Ayodele
 	` // ###### Do not touch/change this line
 
 	const email = `
