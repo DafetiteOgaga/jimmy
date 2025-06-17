@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Home } from "./Home";
 import { Projects } from "./Projects";
 import Contact from "./Contact";
-import { Navigation } from "./Navigation";
+import { Navigation } from "./Navigation"
 import { Socials } from "./Socials"
 // import * as Ficons from "react-icons/fa";
 
