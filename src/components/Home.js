@@ -7,7 +7,7 @@ function Home () {
 	const isMobile = useIsMobile();
 	return (
 		<>
-			{/* home secremote4444 */}
+			{/* home remote55555 */}
 			<section className="panel b-blue" id="1">
 				<article className="panel__wrapper">
 					<div className="panel__content">
