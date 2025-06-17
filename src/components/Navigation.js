@@ -10,7 +10,7 @@ function Navigation () {
 	const toggleMenuClickHandler = () => {setIsMenuClicked(!isMenuClicked)};
 	const hoverHandler = (index, value) => {
 		setOnHover(prev => {
-			// console.log('prev:', prev)
+			// console.log('p22222rev:', prev)
 			const updated = [...prev];
 			updated[index] = value;
 			return updated;
