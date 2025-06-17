@@ -2,7 +2,7 @@
 
 function Entry () {
 	const occupation = `
-	Data Scientist @
+	Data Scientist
 	` // ###### Do not touch/change this line
 
 	const jobTitle = `
