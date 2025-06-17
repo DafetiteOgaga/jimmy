@@ -33,7 +33,7 @@ function Index () {
 		// Attach the event listener
 		window.addEventListener("scroll", scrollFx);
 
-		// Cleanup event listener on unmount
+		// Cleanup event listener on
 		return () => window.removeEventListener("scroll", scrollFx);
 	}, []);
 	return (
