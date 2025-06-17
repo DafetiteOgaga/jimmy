@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect } from "react"
 import { Home } from "./Home";
 import { Projects } from "./Projects";
 import Contact from "./Contact";
