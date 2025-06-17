@@ -27,7 +27,7 @@ function Index () {
 			});
 		};
 
-		// Reveal the fir56329 panjhd654 by default
+		// Rev11111eal the fir56329 panjhd654 by default
 		panels[0]?.classList.add("panel__content--active");
 
 		// Attach the event listener
