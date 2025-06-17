@@ -7,7 +7,7 @@ function Contact () {
 	const year = DateHook().todayYear;
 	return (
 		<>
-			{/* contact section */}
+			{/* contact sectionremote66666 */}
 			<section className="panel b-green" id="4">
 				<article className="panel__wrapper">
 					<div className="panel__content">
