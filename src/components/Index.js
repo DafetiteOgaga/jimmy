@@ -7,7 +7,7 @@ import { Socials } from "./Socials"
 // import * as Ficons from "react-icons/fa";
 
 function Index () {
-	// console.log(Ficons)
+	// console.log(remote22222
 
 	// the sections display and scroll animation
 	useEffect(() => {
