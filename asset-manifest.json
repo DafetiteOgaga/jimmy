@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jimmy/static/css/main.9bdc26fb.css",
-    "main.js": "/jimmy/static/js/main.2049455b.js",
-    "static/js/488.28c8c22c.chunk.js": "/jimmy/static/js/488.28c8c22c.chunk.js",
+    "main.js": "/jimmy/static/js/main.080f4cbe.js",
+    "static/js/488.87880065.chunk.js": "/jimmy/static/js/488.87880065.chunk.js",
     "static/media/jimmy_mobile_bg.png": "/jimmy/static/media/jimmy_mobile_bg.2607a54957ef35dad81e.png",
     "static/media/jimmy_pc_bg.png": "/jimmy/static/media/jimmy_pc_bg.be4c985a321e1f17f624.png",
     "static/media/profile_Picture.jpg": "/jimmy/static/media/profile_Picture.9c5318036306a83e6fd0.jpg",
@@ -16,11 +16,11 @@
     "static/media/dafelogoWhiteTransparent.png": "/jimmy/static/media/dafelogoWhiteTransparent.9e22063262c522af2111.png",
     "index.html": "/jimmy/index.html",
     "main.9bdc26fb.css.map": "/jimmy/static/css/main.9bdc26fb.css.map",
-    "main.2049455b.js.map": "/jimmy/static/js/main.2049455b.js.map",
-    "488.28c8c22c.chunk.js.map": "/jimmy/static/js/488.28c8c22c.chunk.js.map"
+    "main.080f4cbe.js.map": "/jimmy/static/js/main.080f4cbe.js.map",
+    "488.87880065.chunk.js.map": "/jimmy/static/js/488.87880065.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bdc26fb.css",
-    "static/js/main.2049455b.js"
+    "static/js/main.080f4cbe.js"
   ]
 }
