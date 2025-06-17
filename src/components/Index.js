@@ -9,7 +9,7 @@ import { Socials } from "./Socials";
 function Index () {
 	// console.log(Ficons)
 
-	// controls the sections display and scroll animation
+	// the sections display and scroll animation
 	useEffect(() => {
 		const panels = document.querySelectorAll(".panel__content");
 		const vh = window.innerHeight;
