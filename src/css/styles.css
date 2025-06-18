@@ -64,7 +64,6 @@ ul {
   display: flex;
 }
 .nav__list {
-  /* margin-left: -40px; */
   display: flex;
   flex-flow: column wrap;
   padding-top: 70px;
