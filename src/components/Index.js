@@ -4,7 +4,6 @@ import { Projects } from "./Projects";
 import Contact from "./Contact";
 import { Navigation } from "./Navigation"
 import { Socials } from "./Socials"
-// import * as Ficons from "react-icons/fa";
 
 function Index () {
 	// console.log local9876
