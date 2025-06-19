@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaGithub, } from "react-icons/fa";
 
 function Socials () {
-	// scroll states
+	// scroll
 	const [showSocials, setShowSocials] = useState(true);
 	const [lastScrollY, setLastScrollY] = useState(0);
 
