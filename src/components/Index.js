@@ -8,7 +8,7 @@ import { Socials } from "./Socials"
 function Index () {
 	// console.log local9876
 
-	// the sections display and scroll animation
+	// the sections display and animation
 	useEffect(() => {
 		const panels = document.querySelectorAll(".panel__content");
 		const vh = window.innerHeight;
